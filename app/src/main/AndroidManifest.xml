@@ -8,7 +8,11 @@
         android:label="Notepad 2.0"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light">
+        android:theme="@style/Theme.AppCompat.Light"
+        >
+
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".TextInput"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".voiceInput"/>
+        <activity android:name=".listItemDetails"/>
+
+
+
+
     </application>
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 </manifest>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">exampleTodoList</string>
+    <string name="done">Done</string>
+    <string name="voice_recognition_input">Voice recognition input</string>
+    <string name="choose_note_input_method">Choose note input method:</string>
+    <string name="text_input">Text input</string>
 </resources>
